@@ -9,3 +9,8 @@ Common Patterns
 - In-place Reversal of Linked List
 - Breadth First Search
 - Depth First Search
+- Two Heaps
+- Subsets
+- Modified Binary Search
+- Top "K" Elements
+- "K" Way Merge
