@@ -1,6 +1,6 @@
 //MAXIMUM SUBARRAY (EASY)
 
-// Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+// Prompt: Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 // A subarray is a contiguous part of an array.
 
 var maxSubArray = function(nums) {
@@ -18,4 +18,19 @@ var maxSubArray = function(nums) {
     return maxGlobal    //return maxGlobal
 };
 
-// https://leetcode.com/problems/maximum-subarray/
+/*
+input = [ 1   2   3   -5   4 ]
+                           i 
+
+maxCurr   = 1 --> 3 --> 6 --> 1 --> -3
+maxGlobal = 1 --> 3 --> 6 --> 6 --> 6
+
+maxCurr = Math.max(2, (1 + 2)) = 3
+maxCurr = Math.max(3, (3 + 3)) = 6
+
+maxCurr = Math.max(-5, (-5 + 6)) = 1
+maxCurr = Math.max( 4, (-4 + 1)) = -3
+
+https://leetcode.com/problems/maximum-subarray/
+
+*/
