@@ -2,6 +2,9 @@
 
 //Prompt: Given a string s, return true if it is a palindrome, or false otherwise.
 
+// Solution: Helper function with 2 pointers
+// Time: O(N)
+// Space: O(1)
 var isPalindrome = function (s) {
   let left = 0;
   let right = s.length - 1;
@@ -44,4 +47,5 @@ let isValidCharacter = function (char) {
 Input =  " r a c e a c a r "
 
 https://leetcode.com/problems/valid-palindrome/
+
 */
