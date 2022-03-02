@@ -2,7 +2,7 @@
 
 //Prompt: Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
 
-// Solution 1: Recusion
+// Solution 1: Increment counter
 // Time: O(N)
 // Space: O(N) - Creating new stack of N length
 let hammingWeight = function (n) {
