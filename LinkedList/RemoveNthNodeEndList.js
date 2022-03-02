@@ -23,6 +23,12 @@ var removeNthFromEnd = function(head, n) {
 };
 
 /*
+                         Nth
+Input = 1 --> 2 --> 3 --> 4 --> 5
+
+              Head                      F                          
+Dummy = [ ] --> 1 --> 2 --> 3 --> 4 --> 5 --> NULL
+                            B           
 
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
